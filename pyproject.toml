@@ -3,6 +3,41 @@ name = "player-board"
 version = "0.1.0"
 description = "Board game group management software"
 requires-python = ">=3.14"
+dependencies = [
+    "annotated-doc",
+    "annotated-types",
+    "anyio",
+    "certifi",
+    "click",
+    "coverage",
+    "dnspython",
+    "email-validator",
+    "fastapi>=0.136.3",
+    "h11",
+    "httpcore",
+    "httpx",
+    "httpx2>=2.3.0",
+    "idna",
+    "iniconfig",
+    "librt",
+    "mypy",
+    "mypy-extensions",
+    "packaging",
+    "pathspec",
+    "pluggy",
+    "pydantic",
+    "pydantic-core",
+    "pygments",
+    "pytest",
+    "pytest-cov",
+    "ruff",
+    "sqlalchemy",
+    "sqlmodel",
+    "starlette",
+    "typing-extensions",
+    "typing-inspection",
+    "uvicorn",
+]
 
 [tool.mypy]
 python_version = "3.14"
